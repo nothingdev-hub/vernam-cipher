@@ -21,7 +21,17 @@ def xor(n1, n2):
 for i in iter(int, 1):
     c = xor(input('Message: '), input('Key: '))
     print('Result =', c)
+for i in iter(int, 1):
+    op = input("1 - Encrypt, 2 - Decrypt ")
+    if op == '1':
+        c = xor(input('Message: '), input('Key: '))
+        print('Result =', c)
+    elif op == '2':
+        c = xor(input('Cipher-text: '), input('Key: '))
+        print('Result =', c)
             
+    
+    
 
     
 
