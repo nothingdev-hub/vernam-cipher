@@ -33,7 +33,7 @@ for i in iter(int, 1):
                 randomkey += str(random.randint(0, 1))
             c = xor(message, randomkey)
             print('Key = ', randomkey)
-            print(c)
+            print('Reuslt = ', c)
     elif op == '2':
         c = xor(input('Cipher-text: '), input('Key: '))
         print('Result =', c)
