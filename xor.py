@@ -1,4 +1,3 @@
-import random
 def xor(n1, n2):
     flaglen = False 
     flagsym = True
