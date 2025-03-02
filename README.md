@@ -19,3 +19,9 @@ pip install random
 git clone https://github.com/nothingdev-hub/vernam-cipher
 cd vernam-cipher
 python vernam.py
+```
+
+## How to use
+```
+Enter message/key and key/message same len
+Enjoy!
